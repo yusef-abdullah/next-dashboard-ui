@@ -23,7 +23,7 @@ const AdminPage = () => {
           </div>
           {/*Attendence Chart */}
           <div className="w-full lg:w-2/3 h-[450px]">
-          <AttendanceChart />
+            <AttendanceChart />
           </div>
         </div>
         {/*Bottom Charts*/}
@@ -32,7 +32,7 @@ const AdminPage = () => {
         </div>
       </div>
       {/*Right*/}
-      <div className="w-full lg:w-1/3">R</div>
+      <div className="w-full lg:w-1/3 flexx flex-col gap-8">R</div>
     </div>
   );
 };
